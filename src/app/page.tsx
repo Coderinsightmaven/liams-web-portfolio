@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="relative isolate overflow-hidden pt-14">
       <Image
-        src="/plane.png"
+        src="/scuba.avif"
         alt="Background image of a plane landing"
         fill={true}
         objectFit="contain"
@@ -14,7 +14,7 @@ export default function Home() {
       <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
         <div className="hidden sm:mb-8 sm:flex sm:justify-center"></div>
         <div className="text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
+          <h1 className="text-2xl font-bold tracking-tight text-white sm:text-6xl">
             Every Piece Tells a Story
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-300">
